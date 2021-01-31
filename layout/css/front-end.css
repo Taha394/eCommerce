@@ -1,0 +1,330 @@
+/*start main rulez*/
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f2f2;
+    font-size: 16px;
+}
+.asterisk{
+    font-size: 27px;
+    position: absolute;
+    right: 11px;
+    top: 0px;
+    color: red;
+}
+.nice-message{
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px 0;
+    border-left:5px solid #008800 ;
+}
+h1 {
+    font-size: 35px ;
+    margin: 40px 0 ;
+    color: #666 ;
+    font-weight: bold ;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman' serif;
+   
+}
+.main-form .asterisk{
+    
+        font-size: 27px;
+        position: absolute;
+        right: 30px;
+        top: 8px;
+        color: red;
+    }
+
+/*end main rulez*/
+
+
+
+/*start bootstrap edits*/
+
+ a.navbar-brand {
+    
+    font-size: 16px ;
+}
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0.87)!important;
+}
+
+a.dropdown-item:hover{
+    background-color: rgba(0, 0, 0, 0.781)  ;
+    color: white;
+    border-radius: 4%;
+    box-shadow: 1px 10px 20px   gray;
+}
+.dropdown-menu{
+    min-width: 200px;
+    margin: 5px auto;
+
+}
+.form-control{
+    position: relative;
+}
+.trillo{
+    margin-bottom: 20px;
+}
+
+/*end bootstrap edits*/
+/*start login*/
+.input-container{
+    position: relative;
+
+}
+.upper-bar {
+    background-color: rgb(218, 212, 212);
+    padding: 5px;
+}
+.upper-bar .my-info img{
+    width: 45px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.upper-bar .my-info .prima-blue{
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+.upper-bar .my-info .prima-dark{
+   
+    height: 40px;
+    margin-top: 7px;
+
+}
+.login-page form{
+    max-width: 350px;
+    margin: auto;
+}
+.login-page form input{
+    margin-bottom: 10px;
+}
+.login-page [data-class="login"].selceted{
+    color:#007bff;
+}
+.login-page [data-class="signup"].selceted{
+    color: #008800;
+}
+
+.login-page h1 {
+    
+    font-size: 35px ;
+    margin: 40px 0 ;
+    color: rgb(139, 137, 137) ;
+    font-weight: bold ;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman' serif;
+   
+}
+.login-page form,
+.the-errors{
+    max-width: 350px;
+    margin: auto;
+}
+.login-page h1 span{
+    cursor: pointer;
+}
+.login-page .signup{
+    display: none;
+}
+.the-errors .msg{
+    padding: 8px;
+    text-align: left;
+    border-left: 5px solid #cd6858;
+    background-color: rgb(197, 68, 68);
+    margin-bottom: 5px;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    color: #919191;
+}
+.the-errors .error{
+    border-left: 6px solid #e9614d;
+}
+
+/*end login*/
+/*start categories page*/
+.item-box{
+    position: relative;
+    margin-bottom:10px ;
+   
+}
+.item-box .price-tag{
+    background-color: rgb(233, 225, 225);
+    color: green;
+    position: absolute;
+    left: 0;
+    padding: 2px 10px;
+    font-weight: bolder;
+    top: 10px;
+}
+.item-box .approve-status{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #d41685;
+    color: #fff;
+    padding: 4px 5px;
+    margin-top:3px ;
+    border-radius: 5px;
+    
+}
+.item-box .caption p{
+    height: 50px;
+    max-height: 50px;
+}
+
+/*start categories page*/
+
+/*start profile page*/
+.block{
+    margin:20px 0 5px  ;
+    border-radius: 5px;
+}
+.block .card-header{
+    background-color:#007bff ;
+    color: #fff;
+    border-radius: 3px !important;
+
+}
+.block .card-body {
+    border: 1px solid rgb(194, 193, 193);
+    color: black;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.block ul{
+    margin: 0;
+    padding: 0;
+}
+.block ul li{
+    padding: 10px;
+}
+.block ul li:nth-child(odd){
+    background-color: rgb(218, 212, 212);
+}
+.block ul li span{
+    display: inline-block;
+    width: 120px;
+}
+.block  .btn{
+    margin-top: 10px;
+}
+.display .card-header{
+    background-color:#007bff ;
+    color: #fff;
+    border-radius: 3px !important;
+}
+.display .card-body {
+    border: 1px solid rgb(194, 193, 193);
+    color: black;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.card-deck .date{
+    text-align: right;
+    color: #AAA;
+    font-size: 14px;
+
+
+}
+/*end profile page*/
+
+
+/*start show item*/
+
+.item-info{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.item-info h2{
+    padding: 10px;
+    margin: 0px;
+}
+.item-info p{
+    padding: 10px;
+    color: rgb(141, 12, 228);
+}
+.item-info ul li{
+    padding: 10px ;
+    
+}
+
+.item-info ul li:nth-child(odd){
+    background-color: rgb(218, 212, 212);
+    border-radius: 20px;
+}
+.item-info ul li span{
+    display: inline-block;
+    width: 120px;
+}
+.tags-items a{
+    background-color: #e2e2e2;
+    padding: 2px 10px;
+    display: inline-block;
+    list-style: none;
+    border-radius: 5px;
+    color: #666;
+    margin-right: 5px;
+}
+.add-comment{
+    margin:auto;
+}
+.add-comment h3{
+   margin: 0px 0px 10px;
+}
+.add-comment textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 120px;
+}
+
+.comment-box{
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 50%;
+ 
+    
+}
+.comment-box img {
+    max-width: 120px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom:10px ;
+}
+.comment-box .lead{
+    position: relative;
+    padding: 10px;
+    background-color: rgb(230, 223, 223);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.comment-box .lead::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color:transparent  rgb(230, 223, 223) transparent transparent;
+    position: absolute;
+    left: -27px;
+    top: 10px;
+    
+}
+/*end show item*/
+
+/*satrt our  hr coustom*/
+
+.custom-hr{
+    margin-top: 40px;
+    margin-bottom:20px ;
+}
+/*end our hr custom*/

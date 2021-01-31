@@ -1,0 +1,350 @@
+/*start main rulez*/
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f2f2;
+    font-size: 16px;
+}
+.asterisk{
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 7px;
+    color: red;
+}
+.nice-message{
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px 0;
+    border-left:5px solid #008800 ;
+}
+/*end main rulez*/
+
+/*start login form*/
+.login{
+    max-width: 350px;
+    margin: 100px auto;
+}
+.login h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(85, 83, 83);
+    margin-bottom: 20px;
+}
+.login input{
+    margin-bottom: 10px;
+}
+.login .form-control{
+    background-color: #eaeaea;
+}
+.login .btn{
+    background-color: #008ee0;
+}
+/*end login form*/
+
+/*start bootstrap edits*/
+
+ a.navbar-brand {
+    
+    font-size: 16px ;
+}
+.bg-dark {
+    background-color: #3b5999 !important;
+}
+
+a.dropdown-item:hover{
+    background-color: #3b5999 ;
+    color: white;
+    border-radius: 4%;
+    box-shadow: 1px 10px 20px   gray;
+}
+.dropdown-menu{
+    min-width: 200px;
+    margin: 5px auto;
+
+}
+.form-control{
+    position: relative;
+}
+
+
+/*end bootstrap edits*/
+
+/*start dashboard*/
+.home-stats .stat{
+    padding: 18px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 12px;
+    margin-bottom: 7px;
+}
+.home-stats .stat a{
+    text-decoration: none;
+    color: #fff;
+}
+.home-stats .stat span{
+    display: block;
+    font-size: 50px;
+}
+.home-stats .st-member{
+    background-color: #2980b9;
+}
+.home-stats .st-pending{
+    background-color: #e67e22;
+}
+.home-stats .st-items{
+    background-color: #c0392b;
+}
+.home-stats .st-comment{
+    background-color: #f1c40f;
+}
+
+.latest{
+    margin-top: 40px;
+    
+
+}
+.latest .panel-default{
+    margin-bottom: 25px;
+}
+.panel-default{
+    background-color: #fff;
+}
+.panel-heading{
+    background-color: #EEE;
+    padding: 7px;
+    padding-left: 10px;
+}
+.latest .taha {
+    padding: 15px;
+    
+}
+ 
+.latest-user{
+    margin-bottom: 0px;
+}
+.latest-user li{
+    padding: 8px;
+    overflow: hidden;
+}
+.latest-user li:nth-child(odd){
+    background-color: #EEE;
+}
+.latest-user .btn-success{
+    padding: 3px 12px;
+}
+.latest-user li a{
+    text-decoration: none;
+    color: #fff;
+}
+.latest-user  .Activite{
+    padding: 3px 12px ;
+    margin-right: 5px;
+}
+.latest .comment-box{
+    margin: 5px 0 10px;
+    overflow: hidden;
+}
+.latest .comment-box .member-n,
+.latest .comment-box .member-c{
+    float: left;
+}
+.latest .comment-box .member-n{
+    margin-right: 20px;
+    width: 80px;
+    text-align: center;
+    position: relative;
+    top: 8px;
+    color: rgb(11, 61, 160);
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+
+} 
+.latest .comment-box .member-c{
+    width:calc(100% - 100px) ;
+    background-color: rgb(245, 244, 244);
+    padding: 10px;
+    position: relative;
+}
+.latest .comment-box .member-c:before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: -30px;
+    top: 3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #EEE transparent transparent;
+    border-width: 15px;
+
+} 
+/*end dashboard*/
+
+/*start member page*/
+ h1 {
+    
+    font-size: 30px ;
+    margin: 40px 0 ;
+    color: #666 ;
+    font-weight: bold ;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman' serif;
+   
+}
+
+.show-pass{
+    position: absolute;
+    top: 10px;
+    right: -20px;
+}
+.main-table{
+    -webkit-box-shadow: 0 3px 10px #ccc;
+    -moz-box-shadow: 0 3px 10px #ccc;
+    box-shadow: 0 3px 10px #ccc;
+    
+}
+.manage-members img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.main-table td{
+    background-color: #fff;
+    vertical-align: middle !important;
+}
+.main-table .btn{
+    padding: 3px 10px;
+}    
+.main-table tr:first-child td{
+    background-color:#3b5999;
+    color: #fff;
+}
+.activet{
+    margin-left: 5px;
+}
+/*end member page*/
+
+/*start member page*/
+.categories .cat h3{
+    margin: 0px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6a6a6a;
+}
+.categories .card-header{
+    color: rgb(100, 95, 95);
+    background-color: #e7e1e0;
+    font-weight: bolder;
+    font-style:normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+.categories .cat .full-view p {
+    margin: 10px 0;
+}
+.categories .card-body{
+    padding: 0px;
+}
+.categories .option a{
+    color: #888;
+    text-decoration: none;
+}
+.categories .option span{
+    color: #888;
+    cursor: pointer;
+}
+
+.categories .option .active{
+    color: #f00;
+    font-weight: bolder;
+}
+.categories .cat{
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.categories .cat:hover{
+    background-color: #EEE;
+}
+.categories .cat:hover .hidden-buttons{
+    right: 10px;
+}
+/*=====================مهمه جدااااااا ===========================*/
+.categories .cat .hidden-buttons{
+    -webkit-transition: all .5s ease-in-out;
+    -Moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 15px;
+    right: -180px;
+}
+.categories .cat .hidden-buttons a{
+    margin-right: 5px;
+}
+.categories hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.categories .cat:last-of-type ~ hr{
+    display: none;
+}
+.categories .cat .Visibilty{
+    background-color: darksalmon;
+    color: #fff;
+    padding: 4px 8px ;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+.categories .cat .commenting{
+    background-color: #34495e;
+    color: #fff;
+    padding: 4px 8px ;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+.categories .cat .advertis{
+    background-color: #c0392b;
+    color: #fff;
+    padding: 4px 8px ;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+.categories .add-category{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.categories .child-head{
+    margin-top:20px ;
+    font-weight: bold;
+    color: #07c586;
+    border-radius: 7px;
+    padding: 5px 2px 5px 20px;
+    border: 1px solid rgb(204, 21, 21);
+    width: 200px;
+    font-family: cursive;
+
+}
+.categories .child-cat{
+    margin-bottom:0px ;
+}
+
+.categories .child-cat li{
+    margin-top: 8px;
+    margin-left: 15px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.categories .child-cat li::before{
+    content: '- ';
+    margin-left:0 0 20 40px;
+}
+.categories  .show-delete{
+    color: #f00;
+    display: none;
+} 
+/*end member page*/
